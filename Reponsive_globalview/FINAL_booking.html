@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Booking</title>
+    <link href="CSS/Booking.css" type="text/css" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+    .container-icons-social-media{
+        padding-left: 1180px;
+    }
+</style>
+
+
+
+</head>
+<body>
+    
+
+    <header>
+        
+        <nav class="navbar">
+            <div class="Logo">
+    
+                <img src="IMAGES/Global View.png" alt="logo" height="100" width="100">
+                </div>
+    
+                
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                   <img src="IMAGES/menu icon.png" height="32" width="32">
+                </label>
+              
+    
+                    
+                <div class="nav-links">
+                <ul>
+                    <li><a href="FINAL_GlobalView.html">Home</a></li>
+                    <li><a href="FINAL_About us Global View.html">About us</a></li>
+                    <li><a href="FINAL_Explore global view.html">Explore</a></li>
+                    <li><a href="FINAL_FAQ.html">FAQ</a></li>
+                    <li><a href="FINAL_ContactUs.html">Contact us</a></li>
+                    <li><a href="FINAL_login.html">Login</a></li>  
+                </ul>
+                </div>
+        
+                <div class="searchbar">
+    
+                    <input type="text"  style="height: 35px; width: 300px"   name="searchbar" id="searchbar"><br>
+                    <script src="searchbar.js">
+                    </script>
+    
+    
+                <div class="search-button">
+               <button type="submit"id="search-button">
+    
+               <img src="IMAGES/search icon.png" height="30" width="30"
+                ;style="height: 30px; width: 15px" value="submit" name="submit"><br>
+            </div>
+            </button>
+            </div>
+    
+            </nav>
+  
+   
+   </header>
+<main>
+<article>
+<div class="Background1">
+    <h1>Booking</h1>
+
+
+
+
+<form>
+
+        <div class="Container-from-to">
+
+<div class="From">
+        <label for="from"> From</label>
+ <br>
+        <select id="from" name="from" required style="height 35px; width: 300px;"> 
+        </select>
+    </div>
+
+
+    <div class="To">
+    <label for="to">To</label>
+    <br>
+    <select id="to" name="to" required style="height 35px; width: 300px;"> 
+            
+    </select>
+    <br>
+
+
+</div>
+
+</div>
+
+
+<div class="Container-departure-return">
+<div class="Departure">
+<label for="departure-date">Departure</label>
+<br>
+<input type="date"style="height:35px; width: 300px;" id="departure-date" name="departure-date" required>
+</div>
+
+<div class="Return">
+<label for="from">Return</label>
+<br>
+<input type="date" style="height:35px; width: 300px;" id="return-date" name="return-date" required>
+</div>
+
+</div>
+
+
+
+<div class="Container-adults-children"></div>
+<div class="Adults">
+<label for="from">Adults (18+)</label>
+<br>
+<input type="number" style="height:35px; width: 300px;" id="adults" name="adults" min="0"    value="0"   required>
+</div>
+
+
+<div class="Children">
+    <label for="from">Children (0-17)</label>
+    <br>
+    <input type="number" style="height:35px; width: 300px;" id="adults" name="adults" min="0"    value="0"   required>
+</div>
+
+
+<div class="Button-flights">
+    <button>
+        <h3>Find flights</h3>
+    </button>
+</div>
+
+</form>
+    
+</div> 
+
+
+
+
+<div class="Background2">
+
+<div class="Title2">
+<h2>More deals</h2>
+</div>
+
+<div class="container3">
+    <div class="rectangle1">
+        <div class="Text-overlay1">
+            <h1>Jamaica</h1>
+        </div>
+        <div class="Text-overlay2">
+            <h1>from £499</h1>
+        </div>
+        <img src="IMAGES/Beach 4k JA.jpg" alt="JA beach" height="130" width="1200">
+    </div>
+    <div class="rectangle2">
+        <div class="Text-overlay3">
+            <h1>Thailand</h1>
+        </div>
+        <div class="Text-overlay4">
+            <h1>from £589</h1>
+        </div>
+        <img src="IMAGES/4k thailand.jpg" alt="Thailand" height="130" width="1200">
+    </div>
+    <div class="rectangle3">
+        <div class="Text-overlay5">
+            <h1>Indonesia</h1>
+        </div>
+        <div class="Text-overlay6">
+            <h1>from £799 </h1>
+        </div>
+  
+        <img src="IMAGES/4k Bali.jpeg" alt="Indonesia" height="130" width="1200">
+
+</div>
+</div>
+
+
+
+
+
+
+
+</div>
+</article>
+</main>
+
+<footer>
+    <div class="FooterLogo"> 
+    
+    <img src="IMAGES/Global View.png" alt="logo" height="100" width="100">
+    </div>
+    
+    
+    <div class="ContactUs">
+    
+        <h1>Contact us</h1>
+    
+    
+    </div>
+    
+    <div class="container4">
+    
+    
+    
+     <div class="square1">
+        <div class="call-icon">
+            <img src="IMAGES/call icon.png" alt="call icon" height="35" width="35">
+        </div>
+        <div class="email-icon">
+            <img src="IMAGES/mail icon.png" height="35" width="35" alt="mail icon" height="35" width="35">
+        </div>
+    
+        <div class="location-icon">
+            <img src="IMAGES/location icon.png" alt="hotel icon" height="35" width="35">
+        </div>
+        
+        <ul>
+    
+            <li>020 0876 2024</li>
+            <li>GlobalView@enquiries.com</li>
+            <li>8, Beckford road, London, NW2 8JA</li>
+        </ul>
+    
+     </div>
+    
+     <div class="FooterNav">
+        <ul>
+    
+            <li><a href="FINAL_GlobalView.html">Home</a></li>
+            <li><a href="FINAL_About us Global View.html">About us</a></li>
+            <li><a href="FINAL_Explore global view.html">Explore</a></li>
+            <li><a href="FINAL_FAQ.html">FAQ</a></li>
+            <li><a href="FINAL_ContactUs.html">Contact us</a></li>
+            <li><a href="FINAL_login.html">Login</a></li>
+    
+        </ul>
+     </div>
+    
+     <div class="SubscribeToNewsletter">
+       <h2> Subscribe to our newsletter</h2>  
+    </div>
+    <div class="Newsletter-imput">
+        <label for="Email">Email</label><br>
+    <input type="text"style="height: 35px; width: 300px; id="Email" name="Email"><br>
+    <input type="submit" style="height: 36px; width: 75px;value="submit" name="submit"><br>
+    </div>
+    
+    </div>
+    
+    <div class="Copyright">
+        <h6>Copyright 2024</h6>
+    </div>
+    
+     
+    <div class="container-icons-social-media">
+    
+        <img src="IMAGES/instagram.png" height="40" width="40">
+    
+    
+    
+        <img src="IMAGES/tik-tok.png" height="35" width="35">
+    
+    
+    
+        <img src="IMAGES/facebook.png" height="35" width="35">
+    
+    
+        <img src="IMAGES/twitter.png" height="35" width="35">
+    </div>
+    
+    
+    </footer>
+    
+    
+    <script src="JAVASCRIPT/booking_global_view.js">
+    </script>
+</body>
+</html>

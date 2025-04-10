@@ -1,0 +1,1299 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    color: white;
+    font-weight: 200;
+  
+   }
+
+   .Logo{
+      float: left;
+
+   }
+
+
+   .navbar{
+    margin: 0px;
+    background-color: rgb(4, 10, 22);
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 15vh; /* Covering 15% of the viewport height */
+ background-size:cover /* Cover the entire area */
+ background-position: center; /* Center the image */
+ position: absolute;
+ background-size: cover;
+
+
+ }
+     
+ .navbar ul{
+     margin: 15px;
+     padding: 0px;
+     overflow: hidden;
+     list-style-type: none;
+     text-align: right;
+ }
+ 
+    .navbar a{
+     color: rgb(231, 252, 41);
+     padding: 15px;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     font-size: x-large;
+    
+
+    }
+ 
+ .navbar li{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+ }
+
+
+   .navbar a:hover{
+   color: rgb(255, 255, 255);
+   }
+
+      
+   .close-sidebar-button{
+  
+      display: none;
+     
+      }
+      
+      .menu-icon{
+         display: none;
+       
+      }
+      
+      .menu-toggle{
+         display: none;
+      }
+
+   .Background1{
+    background-color: rgb(4, 10, 22);
+    height: 580px;
+ 
+   }
+
+ 
+   .TextAboutUs{
+margin: 0px;
+padding: 100px;
+padding-bottom: 10px;
+   }
+
+   
+   .TextAboutUs h1{
+    padding-bottom: 20px;
+    font-size: 47px;  
+   margin-left: -10px;
+   margin-top: -5px;
+    }
+    
+
+       
+   .TextAboutUs h2{
+      padding-bottom: 30px;
+      width: 70%;
+      font-weight: lighter;
+      line-height:300%;
+font-size: 20px;
+   }
+
+   .TextAboutUs img{
+      float: right;
+   }
+
+   .Background2{
+      background-color: rgb(2, 71, 68);
+      
+   }
+
+   .WhyChooseUs{
+      text-align: center;
+   
+      
+   }
+
+   .WhyChooseUs h2{
+      font-size: 25px;
+      padding-top: 10px;
+   }
+   
+
+   #ListBenefits{
+      padding-bottom: 60px;
+      padding-top: 20px;
+      font-size: 20px;
+
+   }
+
+   
+.WhyChooseUs li{
+   padding-bottom: 30px;
+  
+   }
+
+ 
+
+   .Background3{
+      height: 250px;
+      background-color: rgb(40, 197, 189);
+      text-align: center;
+   }
+
+   .Container6{
+      display: flex;
+      gap: 50px;
+      padding-left: 480px;
+      padding-top: 10px;
+   }
+
+   .Background3 h1{
+     text-align: center;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-size: 25px;
+   } 
+
+   .Background4{
+      background-color: rgb(8, 136, 108);
+      height: 800px;
+      font-size: 15px;
+   }
+   
+   
+   .Background4 h1{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 25px;
+  } 
+   
+ .Container7{
+display: block;
+text-align: center;
+   min-width: 300px; /* Set a minimum width for better control */
+}
+ 
+
+ .image1{
+   padding-left: 50px;
+   margin-top: 35px;
+   margin-bottom: 75px;
+ 
+}
+
+ 
+ .image2{
+   padding-left: 50px;
+
+   margin-bottom: 75px;
+ }
+ 
+ .image3{
+   padding-left: 50px;
+
+   margin-bottom: 75px;
+ }
+ 
+ .Review1{
+   padding-left: 230px;
+margin-top: -650px;
+font-size: 20px;
+
+ }
+ 
+ .Review2{
+   padding-left: 230px;
+margin-top: 200px;
+font-size: 20px;
+
+ }
+
+ 
+ .Review3{
+   padding-left: 230px;
+   margin-top: 220px;  
+   font-size: 20px; 
+ }
+
+ .star-rating1{
+   margin-left: -795px;
+   margin-top: -410px;
+ }
+ 
+ .star-rating2{
+   margin-left: -785px;
+margin-top: 170px; 
+ }
+
+ .star-rating3{
+   margin-left: -785px;
+   margin-top: 180px;
+ }
+ 
+.JohnPalmer h1{
+   margin-left: 850px;
+   margin-top: -490px;
+   font-size: 20px;
+   font-style: italic;
+}
+
+.SaraThomas h1{
+   margin-left: 850px;
+   margin-top: 185px;
+   font-style: italic;
+   font-size: 20px;
+   }
+
+.RichardPowell h1{
+   margin-left: 850px;
+   margin-top: 190px;
+   font-style: italic;
+   font-size: 20px;
+}
+
+
+.FooterLogo{
+   float: left;
+}
+
+footer {
+   background-color: rgb(3, 3, 26);
+   color: white;
+   position: relative;
+   margin: 0; /* Remove any default margin */
+   padding: 0; /* Remove any default padding */
+   height: auto; /* Ensure height adjusts based on content */
+}
+
+.ContactUs{
+  padding-top: 80px;
+   padding-left: 250px;
+   padding-bottom: 20px;
+   color: white;
+   font-size: x-small;
+
+}
+
+/* Styles for the blue box */
+.square1{
+   width: 400px; /* Set width of the blue box */
+   height: 250px; /* Set height of the blue box */
+   background-color: #1f88a8; /* Blue color */
+border-color: black;
+margin-left: 100px;
+}
+
+.square1 ul{
+   list-style: none;
+
+ 
+}
+
+.square1 li{
+   padding-top: 50px;
+   padding-left: 100px;
+
+}
+
+
+
+
+.FooterNav{
+   margin-left: 100px;
+margin-top: -10px;
+}
+
+
+
+.container4{
+   display: flex;
+}
+
+
+.FooterNav li{
+  list-style: none;
+ list-style-type: none ;
+  padding: 20px;
+}
+
+.FooterNav a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+     
+}
+
+.SubscribeToNewsletter{
+   margin-left: 100px;
+}
+
+.SubscribeToNewsletter h2{
+ padding-bottom: 10px;
+}
+
+input{
+   background-color: #1f88a8; /* Blue color */
+}
+
+.Newsletter-imput{
+margin-top: 0px;
+}
+.
+.Newsletter-imput{
+margin-top: 0px;
+position: absolute;
+top: 12%;
+left: 61.5%;
+}
+
+.Newsletter-imput input[type="submit"] {
+   position: absolute;
+   left: 85%;
+top:  36%;
+   }
+
+.Copyright{
+   float: left;
+
+   margin-bottom: 5px;
+}
+
+.container-icons-social-media{
+   margin-left: 1180px;
+   
+   }
+   
+
+
+.container5{
+   display: flex;
+}
+
+.star-rating1 h1{
+font-size: 30px;
+margin-left: -40px;
+margin-top: -457px;
+}
+
+
+.star-rating2 h1{
+   font-size: 30px;
+   margin-left: -40px;
+padding-top: 20px;
+}
+
+.star-rating3 h1{
+   font-size: 30px;
+   margin-left: -40px;;
+padding-top:20px ;
+}
+
+.star-icon1{
+   position: absolute;
+   top: 255%;
+   left: 21%;
+}
+.star-icon2{
+   position: absolute;
+   top: 292%;
+   left: 21%;
+}
+.star-icon3{
+   position: absolute;
+   top: 330%;
+   left: 21%;
+}
+
+.search-button{
+   height: 20px;
+   width: 20px;
+}
+
+.search-button button{
+   background-color: rgb(9, 184, 228);
+   top: 34%;
+   left: 90%;
+   position: absolute;
+}
+
+  
+.searchbar input{
+   background-color: rgb(9, 184, 228);
+   position: absolute;
+   top: 35%;
+   
+     }
+
+  .searchbar input[type="text"]{
+   margin-bottom: bottom : 2px;
+   position: absolute;
+   left: 67%;
+}
+
+ .searchbar input[type="submit"]{
+align-self: flex-end;
+position: absolute;
+left: 90%;
+}
+
+
+
+
+  .searchbar{
+ display: flex;
+ flex-direction: column;
+  }
+  
+  .call-icon{
+   position: absolute;
+   top: 34%;
+   left: 10%;
+   }
+   
+   .email-icon{
+      position: absolute;
+   top: 49%;
+   left: 10%;
+   }
+   
+   .location-icon{
+      position: absolute;
+   top: 63%;
+   left: 10%;
+   }
+   .FooterNav a:hover{
+      color: yellow
+     }
+
+     
+  .TwitterIcon{
+   position: absolute;
+   left: 96%;
+   top: 90%;
+     }
+     .FacebookIcon{
+   position: absolute;
+   left:93% ;
+   top:90%;
+     }
+   
+     .InstagramIcon{
+      position: absolute;
+   left:87% ;
+   top:90%;
+     }
+   
+     
+     .TiktokIcon{
+      position: absolute;
+   left:90% ;
+   top: 90%;
+     }
+
+   
+
+     
+@media (max-width: 600px) {
+   /* CSS rules here */
+
+
+   .nav-links{
+      display: none;
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to start (left) */
+      padding-left: 2px;
+      padding: 0;
+      margin: 0;
+      float: right;
+      list-style-type: none; /* Remove bullet points */
+      width: 185px;
+      background-color: #1f88a8; /* Blue color */
+   z-index: 1000;
+   position: relative;
+   }
+   
+   .nav-links a{
+      line-height: 240%;
+      margin-left: -15px;
+      margin-top: -16px;
+   }
+   
+   
+   
+   .close-sidebar-button{
+      padding-left: 430px;
+      display: none;
+     
+      }
+      
+      .menu-icon{
+         display: block;
+         padding: 0 20px;
+         padding-left: 430px;
+         padding-top: 30px;
+      }
+      
+      .menu-toggle{
+         display: none;
+      }
+   
+      .menu-toggle:checked ~ .nav-links{
+         display: flex;
+ 
+      }
+   
+   
+
+
+      .FooterNav li {
+         min-width: 120px; /* Set a minimum width to prevent wrapping */
+      }
+      
+
+.searchbar input{
+display: none;
+   
+     }
+
+  .searchbar input[type="text"]{
+   display: none;
+   
+}
+
+ .searchbar input[type="submit"]{
+display: none;
+
+}
+
+
+.search-button button{
+display: none;
+}
+
+
+.Background1{
+   height: 800px;
+}
+.TextAboutUs h1{
+   padding-left: 40px;
+   font-size: 35px;
+ }
+
+ .TextAboutUs h2{
+   font-size: 16px;
+   width: 133%;
+line-height: 350%;
+ }
+
+ .TextAboutUs img{
+   display: none;
+ }
+
+        
+.WhyChooseUs h2{
+   font-size: 20px;
+}
+
+.WhyChooseUs ul li{
+   padding-bottom: 20px;
+   padding-top: 10px;
+   font-size: 16px;
+
+}
+
+.Background3{
+   height: 380px;
+}
+
+.Background3 h1{
+   font-size: 20px;
+}
+.Container6{
+   display: block;
+   margin-left: -491px;
+}
+
+.Background4 h1{
+   font-size: 20px;
+}
+
+.Review1, .Review2,.Review3{
+ font-size: 12px;
+}
+
+.JohnPalmer, .SaraThomas, .RichardPowell{
+
+   font-size: 12px;
+}
+
+
+.star-icon1{
+   position: absolute;
+   top: 323%;
+   left: 55%;
+}
+.star-icon2{
+   position: absolute;
+   top: 360%;
+   left: 55%;
+}
+.star-icon3{
+   position: absolute;
+   top: 398.5%;
+   left: 55%;
+}
+
+.star-rating1 h1, .star-rating2 h1, .star-rating3 h1{
+   margin-right: -840px;
+   display: block;
+}
+
+.square1{
+   width: 400px; /* Set width of the blue box */
+   height: 250px; /* Set height of the blue box */
+   background-color: #1f88a8; /* Blue color */
+border-color: black;
+margin-left: 75px;
+}
+
+.square1 li{
+   padding-top: 35px;
+   padding-left: 50px;
+   font-size: 12px;
+   padding-right: 20px;
+
+}
+
+#call-icon{
+   height: 25px;
+   width: 25px;
+
+}
+#mail-icon{
+   height: 25px;
+   width: 25px;
+
+}
+#location-icon{
+   height: 25px;
+   width: 25px;
+ 
+}
+
+
+.call-icon{
+   margin-top: -130px;
+   padding-left: 80px;
+   margin-left: -40px;
+}
+
+.email-icon{
+   margin-top: -200px;
+   padding-left: 80px;
+   margin-left: -40px;
+}
+
+.location-icon{
+   margin-top: -272px;
+   padding-left: 80px;
+   margin-left: -40px;
+}
+
+
+.ContactUs{
+   padding-top: 80px;
+    padding-left: 140px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 10px;
+ 
+ }
+
+ .FooterNav{
+   margin-left: 45px;
+margin-top: -20px;
+
+}
+
+
+
+.SubscribeToNewsletter h2{
+
+ margin-left: -450px;
+margin-top: 500px;
+font-size: 20px;
+}
+
+
+
+.Newsletter-imput{
+
+position: absolute;
+top: 73%;
+left: 16%;
+}
+
+.Newsletter-imput input[type="submit"] {
+   position: absolute;
+   left: 104%;
+top:  27%;
+   }
+
+
+     
+   .TwitterIcon{
+      position: absolute;
+      left: 87%;
+      top: 94%;
+      padding-right: 10px;
+        }
+        .FacebookIcon{
+      position: absolute;
+      left: 79%;
+      top:94%;
+      padding-right: 10px;
+        }
+      
+        .InstagramIcon{
+         position: absolute;
+         left: 63%;
+      top:94%;
+      padding-right: 10px;
+        }
+      
+        
+        .TiktokIcon{
+         position: absolute;
+         left: 71%;
+      top: 94%;
+      padding-right: 10px;
+        }
+
+        .Copyright h6{
+         float: left;
+margin-top: 230px;
+         margin-bottom: 5px;
+      }
+
+      footer{
+         background-color: rgb(3, 3, 26);
+         color: white;
+         position: relative;
+         font-size: 16px;
+         width: 100vw;
+      height: 900px;
+      }
+
+      .Copyright h6{
+         float: left;
+margin-top: -20px;
+         margin-bottom: 5px;
+      }
+
+
+      .TextAboutUs h1{
+
+        margin-left: -45px;
+
+         }
+
+
+
+}
+
+
+     
+     
+@media screen and (min-width: 801px) and (max-width: 1280px) {
+
+
+   .nav-links{
+      display: none;
+         flex-direction: column; /* Stack items vertically */
+         align-items: flex-start; /* Align items to start (left) */
+         padding: 0;
+         margin: 0;
+         padding-left: 2px;
+         list-style-type: none; /* Remove bullet points */
+         float: right;
+         width: 195px;
+         background-color: #1f88a8; /* Blue color */
+      z-index: 1000;
+      position: relative;
+      
+   }
+   
+   .nav-links a{
+      line-height: 180%;
+   }
+   
+   
+   
+   
+
+      
+      .menu-icon{
+         display: block;
+         padding: 0 20px;
+         padding-left: 965px;
+         padding-top: 30px;
+      }
+      
+      .menu-toggle{
+         display: none;
+      }
+   
+      .menu-toggle:checked ~ .nav-links{
+         display: flex;
+      }
+   
+   
+   
+   
+   
+   .searchbar input{
+   display: none;
+      
+        }
+   
+     .searchbar input[type="text"]{
+      display: none;
+      
+   }
+   
+    .searchbar input[type="submit"]{
+   display: none;
+   
+   }
+   
+   
+   .search-button button{
+   display: none;
+   }
+
+   .
+   
+   .Background1 h3{
+      width: 85%;
+   }
+   
+   
+   
+   .square1{
+      width: 400px; /* Set width of the blue box */
+      height: 250px; /* Set height of the blue box */
+      background-color: #1f88a8; /* Blue color */
+   border-color: black;
+   margin-left: 75px;
+   }
+   
+   .square1 li{
+      padding-top: 35px;
+      padding-left: 50px;
+      font-size: 12px;
+      padding-right: 20px;
+   
+   }
+   
+   #call-icon{
+      height: 25px;
+      width: 25px;
+   
+   }
+   #mail-icon{
+      height: 25px;
+      width: 25px;
+   
+   }
+   #location-icon{
+      height: 25px;
+      width: 25px;
+    
+   }
+   
+   
+   .call-icon{
+      margin-top: -155px;
+      padding-left: 20px;
+      margin-left: -40px;
+   }
+   
+   .email-icon{
+      margin-top: -235px;
+      padding-left:20px;
+      margin-left: -40px;
+   }
+   
+   .location-icon{
+      margin-top: -297px;
+      padding-left: 20px;
+      margin-left: -40px;
+   }
+   
+   
+   .ContactUs{
+      padding-top: 80px;
+       padding-left: 140px;
+       padding-bottom: 20px;
+       color: white;
+       font-size: 10px;
+    
+    }
+   
+    .FooterNav{
+      margin-left: 45px;
+   margin-top: -20px;
+   
+   }
+   
+   
+   
+   
+   .SubscribeToNewsletter h2{
+   
+      margin-left: -670px;
+     margin-top: 500px;
+     font-size: 20px;
+     }
+   
+   
+   .Newsletter-imput{
+   
+   position: absolute;
+   top: 73%;
+   left: 6%;
+   }
+   
+   .Newsletter-imput input[type="submit"] {
+      position: absolute;
+      left: 104%;
+   top:  27%;
+      }
+   
+      .FooterNav li {
+         min-width: 120px; /* Set a minimum width to prevent wrapping */
+      }
+        
+      .TwitterIcon{
+         position: absolute;
+         left: 87%;
+         top: 94%;
+         padding-right: 10px;
+           }
+           .FacebookIcon{
+         position: absolute;
+         left: 79%;
+         top:94%;
+         padding-right: 10px;
+           }
+         
+           .InstagramIcon{
+            position: absolute;
+            left: 63%;
+         top:94%;
+         padding-right: 10px;
+           }
+         
+           
+           .TiktokIcon{
+            position: absolute;
+            left: 71%;
+         top: 94%;
+         padding-right: 10px;
+         
+           }
+   
+           .Copyright h6{
+            float: left;
+   margin-top: 230px;
+            margin-bottom: 5px;
+         }
+   
+         footer{
+            background-color: rgb(3, 3, 26);
+            color: white;
+            position: relative;
+            font-size: 16px;
+            width: 100vw;
+         height: 900px;
+         }
+   
+   
+         
+   form{
+      padding-top: 20px;
+   position: relative;
+   left: 15%;
+   }
+   
+   form  input[type="submit"]{
+   margin-left: 285px;
+   margin-top: 12px;
+   margin-bottom: 80px;
+   padding: 10px;
+   }
+   
+   .Background2 img{
+      margin-left: 540px;
+   }
+   
+}
+
+
+
+
+@media screen and (min-width: 801px) and (max-width: 1280px) {
+
+
+   .nav-links{
+      display: none;
+         flex-direction: column; /* Stack items vertically */
+         align-items: flex-start; /* Align items to start (left) */
+         padding: 0;
+         margin: 0;
+         padding-left: 2px;
+         list-style-type: none; /* Remove bullet points */
+         float: right;
+         width: 195px;
+         background-color: #1f88a8; /* Blue color */
+      z-index: 1000;
+      position: relative;
+      
+   }
+   
+   .nav-links a{
+      line-height: 180%;
+   }
+   
+   
+   
+   
+
+      
+      .menu-icon{
+         display: block;
+         padding: 0 20px;
+         padding-left: 905px;
+         padding-top: 30px;
+      }
+      
+      .menu-toggle{
+         display: none;
+      }
+   
+      .menu-toggle:checked ~ .nav-links{
+         display: flex;
+      }
+   
+   
+   
+   
+   
+   .searchbar input{
+   display: none;
+      
+        }
+   
+     .searchbar input[type="text"]{
+      display: none;
+      
+   }
+   
+    .searchbar input[type="submit"]{
+   display: none;
+   
+   }
+   
+   
+   .search-button button{
+   display: none;
+   }
+
+   .Background1 h2{
+      line-height:400%;
+      font-weight: bold;
+      box-sizing: border-box;
+      width: 89%;
+      font-size: 15px;
+      margin-top: 5px; /* Space above each question */
+   margin-bottom: 5px; /* Space below each question */
+   padding-left: 0px;
+   
+   }
+   
+   .Background1 h3{
+      width: 85%;
+   }
+   
+   
+   
+   .square1{
+      width: 400px; /* Set width of the blue box */
+      height: 250px; /* Set height of the blue box */
+      background-color: #1f88a8; /* Blue color */
+   border-color: black;
+   margin-left: 75px;
+   }
+   
+   .square1 li{
+      padding-top: 35px;
+      padding-left: 50px;
+      font-size: 12px;
+      padding-right: 20px;
+   
+   }
+   
+   #call-icon{
+      height: 25px;
+      width: 25px;
+   
+   }
+   #mail-icon{
+      height: 25px;
+      width: 25px;
+   
+   }
+   #location-icon{
+      height: 25px;
+      width: 25px;
+    
+   }
+   
+   
+   .call-icon{
+      margin-top: -155px;
+      padding-left: 20px;
+      margin-left: -40px;
+   }
+   
+   .email-icon{
+      margin-top: -235px;
+      padding-left:20px;
+      margin-left: -40px;
+   }
+   
+   .location-icon{
+      margin-top: -297px;
+      padding-left: 20px;
+      margin-left: -40px;
+   }
+   
+   
+   .ContactUs{
+      padding-top: 80px;
+       padding-left: 140px;
+       padding-bottom: 20px;
+       color: white;
+       font-size: 10px;
+    
+    }
+   
+    .FooterNav{
+      margin-left: 45px;
+   margin-top: -20px;
+   
+   }
+   
+   
+   
+   
+   .SubscribeToNewsletter h2{
+   
+      margin-left: -670px;
+     margin-top: 500px;
+     font-size: 20px;
+     }
+   
+   
+   .Newsletter-imput{
+   
+   position: absolute;
+   top: 73%;
+   left: 6%;
+   }
+   
+   .Newsletter-imput input[type="submit"] {
+      position: absolute;
+      left: 104%;
+   top:  27%;
+      }
+   
+      .FooterNav li {
+         min-width: 120px; /* Set a minimum width to prevent wrapping */
+      }
+        
+      .TwitterIcon{
+         position: absolute;
+         left: 87%;
+         top: 94%;
+         padding-right: 10px;
+           }
+           .FacebookIcon{
+         position: absolute;
+         left: 79%;
+         top:94%;
+         padding-right: 10px;
+           }
+         
+           .InstagramIcon{
+            position: absolute;
+            left: 63%;
+         top:94%;
+         padding-right: 10px;
+           }
+         
+           
+           .TiktokIcon{
+            position: absolute;
+            left: 71%;
+         top: 94%;
+         padding-right: 10px;
+         
+           }
+   
+           .Copyright h6{
+            float: left;
+   margin-top: 230px;
+            margin-bottom: 5px;
+         }
+   
+         footer{
+            background-color: rgb(3, 3, 26);
+            color: white;
+            position: relative;
+            font-size: 16px;
+            width: 100vw;
+         height: 900px;
+         }
+   
+   
+         
+   form{
+      padding-top: 20px;
+   position: relative;
+   left: 15%;
+   }
+   
+   form  input[type="submit"]{
+   margin-left: 285px;
+   margin-top: 12px;
+   margin-bottom: 80px;
+   padding: 10px;
+   }
+   
+   .Background2 img{
+      margin-left: 540px;
+   }
+   
+}
+

@@ -1,0 +1,992 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    color: white;
+    font-weight: 200;
+
+  
+   }
+
+   .Logo{
+      float: left;
+
+   }
+
+   .body{
+      position: relative;
+   }
+
+   .navbar{
+    margin: 0px;
+    background-color: rgb(4, 10, 22);
+position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 15vh; /* Covering 15% of the viewport height */
+ background-size:cover /* Cover the entire area */
+ background-position: center; /* Center the image */
+ background-size: cover;
+ }
+     
+ .navbar ul{
+     margin: 15px;
+     padding: 0px;
+     overflow: hidden;
+     list-style-type: none;
+     text-align: right;
+
+ }
+ 
+    .navbar a{
+     color: rgb(231, 252, 41);
+     padding: 15px;
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     font-size: 23.5px;
+    }
+ 
+ .navbar li{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 8px;
+    display: inline-block;
+    float: left;
+ }
+
+
+   .navbar a:hover{
+   color: rgb(255, 255, 255);
+   }
+
+
+.Background1{
+    background-color: rgb(4, 10, 22);
+    height: 850px;
+ }
+
+ .TextContactUs h1{
+padding-left: 95px;
+padding-top: 95px;
+font-size: 47px;
+ }
+
+
+/* Styles for the blue box */
+.square1{
+    width: 400px; /* Set width of the blue box */
+    height: 250px; /* Set height of the blue box */
+    background-color: #1f88a8; /* Blue color */
+ border-color: black;
+ margin-left: 100px;
+
+ }
+ 
+ .square1 ul{
+    list-style: none;
+ top: -1%;
+ position: absolute;
+  
+ }
+ 
+ .square1 li{
+    padding-top: 50px;
+    padding-left: 100px;
+ 
+ 
+ }
+
+ .map img{
+   height: 250px;
+   width: 400px;
+ }
+
+
+
+ .container{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 130px;
+    gap: 30px;
+    position: relative;
+
+ }
+
+ .Background2{
+    background-color: rgb(2, 71, 68);
+    height: 600px;
+}
+
+
+form{
+    padding-top: 15px;
+position: relative;
+left: 38%;
+}
+
+input{
+    background-color: rgb(9, 136, 153);
+    font-family: inherit;
+}
+.Background2 h1{
+    text-align: center;
+ padding-top: 20px;
+ font-size: 25px;
+ }
+
+
+
+ .Background3{
+    background-color: rgb(8, 136, 108);$
+    height: 400px;
+    
+   }
+
+
+ .Background3 img{
+    padding-left: 380px;
+    width: 75%;
+ }
+
+ .container2{
+    display: flex;
+    gap: 20px;
+    padding-left: 550px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+ }
+
+ .Background3 h1{
+    text-align: center;
+ padding-top: 20px;
+ font-size: 25px;
+ padding-bottom: 20px;
+ }
+
+.address h2{
+   margin-top: 10px;
+    font-size: 20px;
+
+}
+.OpeningHours h2{
+  margin-top: 10px;
+    font-size: 20px;
+
+
+}
+
+
+.close-sidebar-button{
+   display: none;
+   }
+   
+   .menu-icon{
+     display: none;
+      padding: 0 20px;
+   }
+   
+   .menu-toggle{
+      display: none;
+   }
+
+
+
+ .FooterLogo{
+    float: left;
+ }
+ 
+ footer{
+    background-color: rgb(3, 3, 26);
+    color: white;
+ }
+ 
+ .ContactUs{
+   padding-top: 80px;
+    padding-left: 250px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: x-small;
+ 
+ }
+ 
+ /* Styles for the blue box */
+ .square1{
+    width: 400px; /* Set width of the blue box */
+    height: 250px; /* Set height of the blue box */
+    background-color: #1f88a8; /* Blue color */
+ border-color: black;
+ margin-left: 100px;
+ position: relative;
+ }
+ 
+ .square1 ul{
+    list-style: none;
+ }
+ 
+ .square1 li{
+    padding-top: 50px;
+    padding-left: 100px;
+ 
+ }
+ 
+ .Footer{
+    width: 105;
+ }
+ .FooterNav{
+    margin-left: 100px;
+ margin-top: -10px;
+ }
+ 
+ 
+ 
+ .container4{
+    display: flex;
+    position: relative;
+ }
+ 
+ 
+ .FooterNav li{
+   list-style: none;
+  list-style-type: none ;
+   padding: 20px;
+ }
+ 
+ .FooterNav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+      
+ }
+ 
+ .SubscribeToNewsletter{
+    margin-left: 100px;
+ }
+ 
+ .SubscribeToNewsletter h2{
+  padding-bottom: 10px;
+ }
+ 
+ input{
+    background-color: #1f88a8; /* Blue color */
+ }
+ 
+.Newsletter-imput{
+   margin-top: 0px;
+   position: absolute;
+   top: 13%;
+   left: 61%;
+   }
+   
+   .Newsletter-imput input[type="submit"] {
+      position: absolute;
+      left: 104%;
+   top:  28%;
+      }
+   
+      .call-icon{
+         position: absolute;
+         top: 16%;
+         left: 10%;
+         }
+         
+         .email-icon{
+            position: absolute;
+         top: 44%;
+         left: 10%;
+         }
+         
+         .location-icon{
+            position: absolute;
+         top: 72%;
+         left: 10%;
+         }
+ .Copyright{
+    float: left;
+margin-top: -20px;
+ }
+ 
+
+ .FooterNav a:hover{
+   color: yellow
+  }
+
+.call-top-icon{
+   position: absolute; 
+   top: 16%;
+   left: 10%;
+
+}
+
+.email-top-icon{
+   position: absolute; 
+   top: 43%;
+   left: 10%
+}
+
+.location-top-icon{
+   position: absolute; 
+   top: 70%;
+   left: 10%
+}
+
+
+.container-icons-social-media{
+   margin-left: 1180px;
+   
+   }
+
+.square2{
+   width: 400px; /* Set width of the blue box */
+   height: 250px; /* Set height of the blue box */
+   background-color: #1f88a8; /* Blue color */
+border-color: black;
+margin-left: 100px;
+position: relative;
+}
+
+.square2 ul{
+   list-style: none;
+
+ 
+}
+
+.square2 li{
+   padding-top: 50px;
+   padding-left: 100px;
+
+}
+
+
+.search-button{
+   height: 20px;
+   width: 20px;
+}
+
+.search-button button{
+   background-color: rgb(9, 184, 228);
+   top: 34%;
+   left: 90%;
+   position: absolute;
+}
+
+  
+.searchbar input{
+   background-color: rgb(9, 184, 228);
+   position: absolute;
+   top: 35%;
+   
+     }
+
+  .searchbar input[type="text"]{
+   margin-bottom: bottom : 2px;
+   position: absolute;
+   left: 67%;
+}
+
+ .searchbar input[type="submit"]{
+align-self: flex-end;
+position: absolute;
+left: 90%;
+}
+
+
+
+
+  .searchbar{
+ display: flex;
+ flex-direction: column;
+  }
+  
+  .TwitterIcon{
+   position: absolute;
+   left: 96%;
+   top: 321%;
+     }
+     .FacebookIcon{
+   position: absolute;
+   left:93% ;
+   top:321%;
+     }
+   
+     .InstagramIcon{
+      position: absolute;
+   left:87% ;
+   top:321%;
+     }
+   
+     
+     .TiktokIcon{
+      position: absolute;
+   left:90% ;
+   top: 321%;
+     }
+
+
+     form  input[type="submit"]{
+      margin-left: 285px;
+      margin-top: 12px;
+      padding: 10px;
+      }
+
+      form input{
+         margin-top: 2.5px;
+         margin-bottom: 2.5px;
+      }
+
+
+      
+@media (max-width: 600px) {
+   /* CSS rules here */
+
+
+
+.nav-links{
+   display: none;
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to start (left) */
+      padding: 0;
+      margin: 0;
+      padding-left: 2px;
+      list-style-type: none; /* Remove bullet points */
+      float: right;
+      width: 195px;
+      background-color: #1f88a8; /* Blue color */
+   z-index: 1000;
+   position: relative;
+   
+}
+
+.nav-links a{
+   line-height: 180%;
+}
+
+
+
+
+.close-sidebar-button{
+   padding-left: 430px;
+   display: none;
+  
+   }
+   
+   .menu-icon{
+      display: block;
+      padding: 0 20px;
+      padding-left: 430px;
+      padding-top: 30px;
+   }
+   
+   .menu-toggle{
+      display: none;
+   }
+
+   .menu-toggle:checked ~ .nav-links{
+      display: flex;
+   }
+
+
+
+
+
+.searchbar input{
+display: none;
+   
+     }
+
+  .searchbar input[type="text"]{
+   display: none;
+   
+}
+
+ .searchbar input[type="submit"]{
+display: none;
+
+}
+
+
+.search-button button{
+display: none;
+}
+
+
+.container{
+   flex-direction: column;
+   display: flex;
+}
+
+.map img{
+   width: 115%;
+   height: 15%;
+   margin-left: -90px;
+   padding-bottom: 20px;
+}
+
+.square1{
+   width: 398px; /* Set width of the blue box */
+   height: 250px; /* Set height of the blue box */
+   background-color: #1f88a8; /* Blue color */
+border-color: black;
+margin-left: -90px;
+
+}
+
+ form{
+    padding-top: 15px;
+position: relative;
+left: 19%;
+font-size: 16px;
+}
+        
+.Background2 ul li{
+   font-size: 16px;
+}
+
+.Background2 h2{
+   padding-bottom: 20px;
+   padding-top: 10px;
+font-size: 20px;
+
+}
+.Copyright {
+   float: left;
+   margin-top: 100px;
+}
+
+
+      .Background3 img{
+ width: 90%;
+ height: 170%;
+ padding-left: 50px;
+      }
+
+      
+.square2{
+   width: 250px; /* Set width of the blue box */
+   height: 250px; /* Set height of the blue box */
+   background-color: #1f88a8; /* Blue color */
+border-color: black;
+margin-left: 80px;
+}
+
+.square2 li{
+   padding-top: 35px;
+   padding-left: 50px;
+   font-size: 12px;
+   padding-right: 20px;
+
+}
+
+#call-icon{
+   height: 25px;
+   width: 25px;
+
+}
+#mail-icon{
+   height: 25px;
+   width: 25px;
+
+}
+#location-icon{
+   height: 25px;
+   width: 25px;
+ 
+}
+
+
+.call-icon{
+   margin-top: -23px;
+  margin-left: -10px;
+}
+
+.email-icon{
+   margin-top: -35px;
+  margin-left: -10px;
+}
+
+.location-icon{
+   margin-top: -45px;
+   margin-left: -10px;
+}
+
+
+.ContactUs{
+   padding-top: 80px;
+    padding-left: 140px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 10px;
+ 
+ }
+
+ .FooterNav{
+   margin-left: 45px;
+margin-top: -20px;
+
+}
+
+
+
+.FooterNav li {
+   min-width: 120px; 
+}
+
+
+.SubscribeToNewsletter h2{
+
+ margin-left: -480px;
+margin-top: 380px;
+font-size: 20px;
+}
+
+
+
+.Newsletter-imput{
+
+position: absolute;
+top: 103%;
+left: 16%;
+}
+
+.Newsletter-imput input[type="submit"] {
+   position: absolute;
+   left: 104%;
+top:  27%;
+   }
+
+
+     
+   .TwitterIcon{
+      position: absolute;
+      left: 87%;
+      top: 94%;
+      padding-right: 10px;
+        }
+        .FacebookIcon{
+      position: absolute;
+      left: 79%;
+      top:94%;
+      padding-right: 10px;
+        }
+      
+        .InstagramIcon{
+         position: absolute;
+         left: 63%;
+      top:94%;
+      padding-right: 10px;
+        }
+      
+        
+        .TiktokIcon{
+         position: absolute;
+         left: 71%;
+      top: 94%;
+      padding-right: 10px;
+        }
+
+        .Copyright h6{
+         float: left;
+margin-top: 230px;
+         margin-bottom: 5px;
+      }
+
+      footer{
+         background-color: rgb(3, 3, 26);
+         color: white;
+         position: relative;
+         font-size: 16px;
+         width: 100vw;
+      height: 900px;
+      }
+      .searchbar input{
+         display: none;
+            
+              }
+         
+           .searchbar input[type="text"]{
+            display: none;
+            
+         }
+         
+          .searchbar input[type="submit"]{
+         display: none;
+         
+         }
+         .TextContactUs h1{
+            padding-left: 95px;
+            padding-top: 95px;
+            font-size: 47px;
+         }
+
+         form{
+            padding-top: 15px;
+        position: relative;
+        left: 15%;
+        }
+
+
+        .address h2{
+         margin-top: 10px;
+         font-size: 16px;
+          margin-left: -500px;
+      }
+      .OpeningHours h2{
+        margin-top: 10px;
+        font-size: 16px;
+          margin-left: -250px;
+      
+      
+      }
+      
+      }
+
+
+
+
+      @media screen and (min-width: 801px) and (max-width: 1280px) {
+
+
+         .nav-links{
+            display: none;
+               flex-direction: column; /* Stack items vertically */
+               align-items: flex-start; /* Align items to start (left) */
+               padding: 0;
+               margin: 0;
+               padding-left: 2px;
+               list-style-type: none; /* Remove bullet points */
+               float: right;
+               width: 195px;
+               background-color: #1f88a8; /* Blue color */
+            z-index: 1000;
+            position: relative;
+            
+         }
+         
+         .nav-links a{
+            line-height: 180%;
+         }
+         
+         
+         
+         
+      
+            
+            .menu-icon{
+               display: block;
+               padding: 0 20px;
+               padding-left: 905px;
+               padding-top: 30px;
+            }
+            
+            .menu-toggle{
+               display: none;
+            }
+         
+            .menu-toggle:checked ~ .nav-links{
+               display: flex;
+            }
+         
+         
+         
+         
+         
+         .searchbar input{
+         display: none;
+            
+              }
+         
+           .searchbar input[type="text"]{
+            display: none;
+            
+         }
+         
+          .searchbar input[type="submit"]{
+         display: none;
+         
+         }
+         
+         
+         .search-button button{
+         display: none;
+         }
+      
+         .Background1 h2{
+            line-height:400%;
+            font-weight: bold;
+            box-sizing: border-box;
+            width: 89%;
+            font-size: 15px;
+            margin-top: 5px; /* Space above each question */
+         margin-bottom: 5px; /* Space below each question */
+         padding-left: 0px;
+         
+         }
+         
+         .Background1 h3{
+            width: 85%;
+         }
+         
+         
+         
+         .square1{
+            width: 400px; /* Set width of the blue box */
+            height: 250px; /* Set height of the blue box */
+            background-color: #1f88a8; /* Blue color */
+         border-color: black;
+         margin-left: 75px;
+         }
+         
+         .square1 li{
+            padding-top: 35px;
+            padding-left: 50px;
+            font-size: 12px;
+            padding-right: 20px;
+         
+         }
+         
+         #call-icon{
+            height: 25px;
+            width: 25px;
+         
+         }
+         #mail-icon{
+            height: 25px;
+            width: 25px;
+         
+         }
+         #location-icon{
+            height: 25px;
+            width: 25px;
+          
+         }
+         
+         
+         .call-icon{
+            margin-top: -155px;
+            padding-left: 20px;
+            margin-left: -40px;
+         }
+         
+         .email-icon{
+            margin-top: -235px;
+            padding-left:20px;
+            margin-left: -40px;
+         }
+         
+         .location-icon{
+            margin-top: -297px;
+            padding-left: 20px;
+            margin-left: -40px;
+         }
+         
+         
+         .ContactUs{
+            padding-top: 80px;
+             padding-left: 140px;
+             padding-bottom: 20px;
+             color: white;
+             font-size: 10px;
+          
+          }
+         
+          .FooterNav{
+            margin-left: 45px;
+         margin-top: -20px;
+         
+         }
+         
+         
+         
+         
+         .SubscribeToNewsletter h2{
+         
+            margin-left: -670px;
+           margin-top: 500px;
+           font-size: 20px;
+           }
+         
+         
+         .Newsletter-imput{
+         
+         position: absolute;
+         top: 73%;
+         left: 6%;
+         }
+         
+         .Newsletter-imput input[type="submit"] {
+            position: absolute;
+            left: 104%;
+         top:  27%;
+            }
+         
+            .FooterNav li {
+               min-width: 120px; /* Set a minimum width to prevent wrapping */
+            }
+              
+            .TwitterIcon{
+               position: absolute;
+               left: 87%;
+               top: 94%;
+               padding-right: 10px;
+                 }
+                 .FacebookIcon{
+               position: absolute;
+               left: 79%;
+               top:94%;
+               padding-right: 10px;
+                 }
+               
+                 .InstagramIcon{
+                  position: absolute;
+                  left: 63%;
+               top:94%;
+               padding-right: 10px;
+                 }
+               
+                 
+                 .TiktokIcon{
+                  position: absolute;
+                  left: 71%;
+               top: 94%;
+               padding-right: 10px;
+               
+                 }
+         
+                 .Copyright h6{
+                  float: left;
+         margin-top: 230px;
+                  margin-bottom: 5px;
+               }
+         
+               footer{
+                  background-color: rgb(3, 3, 26);
+                  color: white;
+                  position: relative;
+                  font-size: 16px;
+                  width: 100vw;
+               height: 900px;
+               }
+         
+         
+               
+         form{
+            padding-top: 20px;
+         position: relative;
+         left: 15%;
+         }
+         
+         form  input[type="submit"]{
+         margin-left: 285px;
+         margin-top: 12px;
+         margin-bottom: 80px;
+         padding: 10px;
+         }
+         
+         .Background2 img{
+            margin-left: 540px;
+         }
+         
+      }
+      
+      
